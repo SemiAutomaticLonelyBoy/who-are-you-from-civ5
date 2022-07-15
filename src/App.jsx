@@ -4,7 +4,6 @@ import MainScreen from "./components/MainScreen/MainScreen";
 
 
 const App = () => {
-    console.log('app');
     return (
         <div>
            <MainScreen/>

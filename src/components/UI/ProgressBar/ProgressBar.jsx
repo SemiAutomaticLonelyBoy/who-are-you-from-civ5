@@ -16,7 +16,8 @@ const ProgressBar = ({setResult}) => {
             if (start <= value){
                 setProgress(start++)
             }}, 50)
-    }, [])
+        //ts-ignore
+    },[setResult, start, value])
 
 
     return (
