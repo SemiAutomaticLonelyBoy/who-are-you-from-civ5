@@ -11,6 +11,7 @@ const ProgressBar = ({setResult}) => {
             if(start === value){
                 setResult(true)
                 clearInterval(progressTimer);
+                setValue(100)
             }
             if (start <= value){
                 setProgress(start++)
