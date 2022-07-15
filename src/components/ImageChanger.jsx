@@ -5,8 +5,8 @@ import {IMAGES} from "../assets/images";
 
 const ImageChanger = () => {
     const [person, setPerson] = useState(IMAGES[Math.round(Math.random() * (IMAGES.length -1))]);
-    const [color, setColor] = useState(100);
-    let start = 100;
+    //const [color, setColor] = useState(100);
+    //let start = 100;
 
 
     useEffect(() => {
