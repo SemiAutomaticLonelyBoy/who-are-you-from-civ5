@@ -16,7 +16,6 @@ const MainScreen = () => {
         setModal(true)
     }
 
-
     return (
         <div className={cl.all}>
             <div className={cl.body}>
