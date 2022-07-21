@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import cl from "./MainScreen.module.css";
 import MyModal from "../UI/modal/MyModal";
-import ImageChanger from "../ImageChanger";
+import ImageChanger from "../ImageChanger/ImageChanger";
 import BankCardForm from "../BankCardForm/BankCardForm";
 import Result from "../Result/Result";
 

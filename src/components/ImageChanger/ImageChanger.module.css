@@ -1,0 +1,56 @@
+.image {
+    margin-top: 20px;
+    width: 800px;
+    animation: slide 5s infinite;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+    }
+    2% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 5%;
+    }
+    10% {
+        opacity: 25%;
+    }
+    13% {
+        opacity: 37%;
+    }
+    15% {
+        opacity: 50%;
+    }
+    18% {
+        opacity: 75%;
+    }
+    20% {
+        opacity: 100%;
+    }
+    80% {
+        opacity: 100%;
+    }
+    82% {
+        opacity: 75%;
+    }
+    85% {
+        opacity: 50%;
+    }
+    87% {
+        opacity: 37%;
+    }
+    90% {
+        opacity: 25%;
+    }
+    95% {
+        opacity: 5%;
+    }
+    98% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}

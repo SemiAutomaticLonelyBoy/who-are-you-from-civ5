@@ -6,6 +6,7 @@
 }
 .all {
     background: #171515;
+
 }
 .body{
     display: flex;
@@ -21,22 +22,14 @@
     text-align: center;
     color: #fff;
 }
-.image {
-    margin-top: 20px;
-    width: 800px;
-}
-.imageBack {
-    margin-top: 20px;
-    width: 800px;
-    height: 450px;
-   /* position: absolute;*/
-}
+
 .container {
     width: 800px;
     height: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .button {
     height: 80px;
@@ -45,4 +38,7 @@
     border-radius: 13px;
     cursor: pointer;
     background: #fff;
+}
+.wrapper {
+    animation: slide 5s infinite;
 }

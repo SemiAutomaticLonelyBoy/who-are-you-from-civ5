@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 
-import cl from "./MainScreen/MainScreen.module.css";
-import {IMAGES} from "../assets/images";
+import cl from "../ImageChanger/ImageChanger.module.css";
+import {IMAGES} from "../../assets/images";
 
 const ImageChanger = () => {
     const [person, setPerson] = useState(IMAGES[Math.round(Math.random() * (IMAGES.length -1))]);
@@ -9,7 +9,7 @@ const ImageChanger = () => {
     useEffect(() => {
         setInterval(()=>{
             setPerson(IMAGES[Math.round(Math.random() * (IMAGES.length -1))]);
-        }, 2500)
+        }, 5000)
     }, [])
 
     return (
