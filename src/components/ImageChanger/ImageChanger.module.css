@@ -1,6 +1,8 @@
 .image {
     margin-top: 20px;
     width: 800px;
+}
+.imageAnimation {
     animation: slide 5s infinite;
 }
 

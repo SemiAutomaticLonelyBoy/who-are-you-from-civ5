@@ -6,7 +6,10 @@ import {IMAGES} from "../../assets/images";
 const ImageChanger = () => {
     const [person, setPerson] = useState(IMAGES[Math.round(Math.random() * (IMAGES.length -1))]);
 
+    const [rootClasses, setRootClasses] = useState([cl.image]);
+
     useEffect(() => {
+       setRootClasses([cl.image, cl.imageAnimation])
         setInterval(()=>{
             setPerson(IMAGES[Math.round(Math.random() * (IMAGES.length -1))]);
         }, 5000)
@@ -14,7 +17,7 @@ const ImageChanger = () => {
 
     return (
         <div>
-            <img className={cl.image} src={person.toString()} alt={"Leader"}/>
+            <img className={rootClasses.join(" ")} src={person.toString()} alt={"Leader"}/>
         </div>
     );
 };
