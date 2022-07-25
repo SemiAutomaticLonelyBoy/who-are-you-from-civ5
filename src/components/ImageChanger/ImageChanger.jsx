@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {memo, useEffect, useState} from 'react';
 
 import cl from "../ImageChanger/ImageChanger.module.css";
 import {IMAGES} from "../../assets/images";
@@ -22,4 +22,4 @@ const ImageChanger = () => {
     );
 };
 
-export default ImageChanger;
+export default memo(ImageChanger);
