@@ -9,10 +9,10 @@ const ImageChanger = () => {
     const [rootClasses, setRootClasses] = useState([cl.image]);
 
     useEffect(() => {
-       setRootClasses([cl.image, cl.imageAnimation])
         setInterval(()=>{
             setPerson(IMAGES[Math.round(Math.random() * (IMAGES.length -1))]);
         }, 5000)
+        setRootClasses([cl.image, cl.imageAnimation])
     }, [])
 
     return (
